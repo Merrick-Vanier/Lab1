@@ -1,0 +1,68 @@
+[33mcommit ae6e3cd406fa05595bcd39ab08bd557160e7b41a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Merrick MacInnis <6237800@edu.vaniercollege.qc.ca>
+Date:   Wed Aug 27 10:36:14 2025 -0400
+
+    first commit
+
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5b4d3fa[m
+[1m--- /dev/null[m
+[1m+++ b/pom.xml[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">[m
+[32m+[m[32m    <modelVersion>4.0.0</modelVersion>[m
+[32m+[m[32m    <groupId>com.mycompany</groupId>[m
+[32m+[m[32m    <artifactId>ZipCodeIntro</artifactId>[m
+[32m+[m[32m    <version>1.0-SNAPSHOT</version>[m
+[32m+[m[32m    <packaging>jar</packaging>[m
+[32m+[m[32m    <properties>[m
+[32m+[m[32m        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>[m
+[32m+[m[32m        <maven.compiler.source>22</maven.compiler.source>[m
+[32m+[m[32m        <maven.compiler.target>22</maven.compiler.target>[m
+[32m+[m[32m        <exec.mainClass>com.mycompany.zipcodeintro.ZipCodeIntro</exec.mainClass>[m
+[32m+[m[32m    </properties>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/src/main/java/com/mycompany/zipcodeintro/ZipCode.java b/src/main/java/com/mycompany/zipcodeintro/ZipCode.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4f80983[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/com/mycompany/zipcodeintro/ZipCode.java[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32m/*[m
+[32m+[m[32m * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license[m
+[32m+[m[32m * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template[m
+[32m+[m[32m */[m
+[32m+[m[32mpackage com.mycompany.zipcodeintro;[m
+[32m+[m
+[32m+[m[32m/**[m
+[32m+[m[32m *[m
+[32m+[m[32m * @author 6237800[m
+[32m+[m[32m */[m
+[32m+[m[32mpublic class ZipCode {[m
+[32m+[m[41m    [m
+[32m+[m[32m}[m
+[1mdiff --git a/src/main/java/com/mycompany/zipcodeintro/ZipCodeIntro.java b/src/main/java/com/mycompany/zipcodeintro/ZipCodeIntro.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..77666f5[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/java/com/mycompany/zipcodeintro/ZipCodeIntro.java[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m/*[m
+[32m+[m[32m * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license[m
+[32m+[m[32m */[m
+[32m+[m
+[32m+[m[32mpackage com.mycompany.zipcodeintro;[m
+[32m+[m
+[32m+[m[32m/**[m
+[32m+[m[32m *[m
+[32m+[m[32m * @author 6237800[m
+[32m+[m[32m */[m
+[32m+[m[32mpublic class ZipCodeIntro {[m
+[32m+[m
+[32m+[m[32m    public static void main(String[] args) {[m
+[32m+[m[32m        System.out.println("Hello World!");[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
